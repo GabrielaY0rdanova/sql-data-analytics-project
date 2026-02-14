@@ -1,5 +1,7 @@
 # 📊 SQL Data Analytics Project
 
+End-to-end SQL analytics project demonstrating real-world business analysis patterns using T-SQL.
+
 [![TSQL](https://img.shields.io/badge/SQL-Data%20Analytics-blue?logo=Microsoft-SQL-Server)](https://www.microsoft.com/en-us/sql-server)
 
 ## ✨ Project Overview
@@ -7,7 +9,35 @@
 This repository contains a collection of **T‑SQL scripts for data analytics and reporting**.  
 The scripts demonstrate a variety of analytical techniques that are commonly used by **data analysts and BI professionals** when exploring and extracting insights from relational data.
 
-This project is based on a **step‑by‑step guided SQL analytics tutorial by [Data With Baraa](https://www.youtube.com/@DataWithBaraa)**, and uses the datasets provided in the tutorial. :contentReference[oaicite:2]{index=2}
+This project is based on a **step‑by‑step guided SQL analytics tutorial by [Data With Baraa](https://www.youtube.com/@DataWithBaraa)**, and uses the datasets provided in the tutorial.
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **Microsoft SQL Server**
+- **T-SQL**
+- **SQL Server Management Studio (SSMS)**
+
+### 🔎 SQL Techniques Applied
+
+- Aggregations: `SUM()`, `COUNT()`, `AVG()`, `GROUP BY`
+- Window Functions: `SUM() OVER()`, `AVG() OVER()`, `LAG()`, `RANK()`
+- Time Intelligence: `YEAR()`, `MONTH()`, `DATEDIFF()`, `DATETRUNC()`
+- Business Logic & Segmentation: `CASE`, CTEs (`WITH`)
+- Reporting: `CREATE VIEW`
+
+---
+
+## 📚 Skills Demonstrated
+
+This project demonstrates:
+
+- Advanced SQL querying techniques  
+- Analytics‑oriented SQL patterns  
+- Data exploration and reporting logic  
+- Use of window functions for advanced metrics  
+- Practical business analytics query writing
 
 ---
 
@@ -26,13 +56,11 @@ Each script focuses on a specific analytical theme, such as:
 - 🔍 Data segmentation
 - 🧩 Part‑to‑whole analysis
 
-These are common scenarios in real‑world analytics and business reporting.
-
 ---
 
 ## 📌 How to Use
 
-1. **Import the dataset(s)** into your SQL Server database.  
+1. **Restore or import** the provided datasets into Microsoft SQL Server.  
 2. Open the SQL scripts in the [`scripts/`](scripts) folder using **SQL Server Management Studio (SSMS)** or another SQL client.  
 3. Execute each script to explore analytical patterns and outputs.
 
@@ -40,34 +68,22 @@ Each script is self‑contained and focuses on a specific type of analysis.
 
 ---
 
-## 🛠 Tools & Technologies
+## 📊 Key Insights
 
-This project uses:
+Using structured SQL analysis, the following business patterns were identified:
 
-- 🗄️ **SQL Server / T‑SQL**  
-- 🛠️ **SQL Server Management Studio (SSMS)**  
-- 📊 Analytical SQL functions such as:
-  - Window functions (`ROW_NUMBER`, `SUM() OVER`, etc.)
-  - Aggregations (`GROUP BY`)
-  - Conditional logic (`CASE`)
-  - Time‑based analytics
-
----
-
-## 📚 Skills Demonstrated
-
-By completing this project, you demonstrate:
-
-- Advanced SQL querying techniques  
-- Analytics‑oriented SQL patterns  
-- Data exploration and reporting logic  
-- Use of window functions for advanced metrics  
-- Practical business analytics query writing
-
-These are essential skills for roles such as **Data Analyst, BI Analyst, and SQL Developer**.
+- 💰 Revenue is concentrated among a small group of top-performing products and customers.
+- 🏆 Clear performance tiers exist across products, highlighting high and low revenue contributors.
+- 📈 Sales trends vary over time, with measurable growth and fluctuation across months and years.
+- 📊 Cumulative analysis reveals overall revenue growth patterns.
+- 🔄 Year-over-year comparisons identify products with increasing or declining performance.
+- 👥 Customer segmentation (VIP, Regular, New) provides insight into spending behavior and lifecycle value.
+- 📑 Consolidated reporting views deliver actionable KPIs such as recency, lifespan, average order value, and monthly revenue.
 
 ---
+
 ## 📂 Repository Structure
+
 ```
 sql-data-analytics-project/
 ├── datasets/                # Raw datasets for analysis
@@ -75,6 +91,7 @@ sql-data-analytics-project/
 ├── README.md                # Project overview and usage guide
 └── LICENSE                  # MIT License
 ```
+
 ---
 
 ## 🎓 Project Inspiration
@@ -98,11 +115,11 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 ## 🌟 About Me
 
-Hi! I'm [Gabriela Yordanova](https://www.linkedin.com/in/gabriela-yordanova-837ba2124/). I have a diverse professional background, with experience in pharmacy and real estate, where I developed strong analytical thinking, attention to detail, and problem-solving skills in fast-paced, customer-focused environments.
+Hi! I'm [Gabriela Yordanova](https://www.linkedin.com/in/gabriela-yordanova-837ba2124/) - a transitioning data analyst with a background in pharmacy and real estate. My previous experience helped me develop strong analytical thinking, attention to detail, and problem-solving skills in fast-paced environments.
 
-I am currently transitioning into a career in data analysis, dedicating my time to learning key tools and techniques, including SQL, data cleaning, data visualization, and data modeling. I am actively applying these skills by working on hands-on projects, building a portfolio that demonstrates my ability to transform raw data into actionable insights.
+I am currently building hands-on projects in SQL, data analytics, and business intelligence, transforming raw data into actionable insights.
 
-I am passionate about using data to drive informed decision-making and eager to contribute my analytical mindset and transferable experience to a dynamic, data-driven team.
+I’m actively seeking opportunities to contribute to a data-driven team.
 
 ---
 
